@@ -1,0 +1,21 @@
+.comment {
+    margin-top:20px;
+    background-color: rgb(249, 249, 249);
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight: lighter;
+    padding-top: 10px;
+    text-wrap: wrap;
+}
+
+.author {
+    background-color: rgb(217, 217, 217);
+    border-radius: 50px;
+    width: 50%;
+    margin:auto;
+}
+
+.text {
+    padding-top: 20px;
+    padding-bottom:20px;
+}

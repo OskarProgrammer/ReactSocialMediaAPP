@@ -1,0 +1,87 @@
+.post {
+    background-color: #BBB6A5;
+    width: 50%;
+    margin: auto;
+    padding:25px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size:25px;
+    transition: 0.5s;
+    margin-top: 50px;
+}
+
+.image {
+    width: 360px;
+    height: 360px;
+    background-color: red;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 50px;
+}
+
+.image > img {
+    border-radius: 50px;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.post:hover {
+    box-shadow: 5px 5px 20px #ada898;
+}
+
+.buttons > button {
+    padding: 30px;
+    border-radius: 50px;
+    margin: 20px 0px 0px 22px;
+    border: 0;
+    transition: 0.5s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.buttons > button:hover { 
+    background-color: #7c8a96;
+}
+
+.desc {
+    padding-left: 15px;
+    text-align: left; 
+    margin: 0px 0px 0px 0px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius:50px;
+    background-color: rgb(249, 249, 249);
+}
+
+.newcomment {
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.newcomment > div > input {
+    padding:10px;
+    width: 90%;
+    font-size: 20px;
+}
+.newcomment > button {
+    border-radius: 50px;
+    width: 50%;
+    font-size: 20px;
+    border: 0px;
+    margin-top: 15px;
+    padding:10px;
+    background-color: #fcfcfc;
+    transition: 0.5s;
+}
+.newcomment > button:hover {
+    background-color: #979797;
+}
+
+.liked {
+    background-color: #935454;
+}
