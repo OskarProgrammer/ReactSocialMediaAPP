@@ -15,7 +15,7 @@
     height: 360px;
     background-color: red;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 10px;
     margin-bottom: 25px;
     border-radius: 50px;
 }
@@ -84,4 +84,12 @@
 
 .liked {
     background-color: #935454;
+}
+
+.author {
+    background-color: #BBB6A5;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight:normal;
 }

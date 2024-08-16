@@ -21,6 +21,7 @@ export const Post = (props) => {
     return (
         <div className="post">
             <div className="title">{props.title}</div>
+            <div className="author">{props.author}</div>
             <div className="image"> <img src="" alt={props.link} width="360px" height="360px"/> </div>
             <div className="desc">{props.desc}</div>
             <div className="buttons"> 
